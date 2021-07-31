@@ -1,3 +1,3 @@
 # owned by bumble
-# this site is just a flex
-# I don't know what else to put here
+# I offer subdomains like example.floppa.info for free
+# contact me on discord bumble#0001 and depending on what you want to do i can give you a subdomain
