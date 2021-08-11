@@ -4,7 +4,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow: hidden;
   animation: animateBg 15s linear infinite;
-  background-image: linear-gradient(45deg, var(#3a28e3), var(#9e28e3), var(#3a28e3), var(#9e28e3));
+  background-image: linear-gradient(45deg, #3a28e3, #9e28e3, #3a28e3, #9e28e3);
   background-size: 300% 100%;
 }
 

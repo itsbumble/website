@@ -1,6 +1,5 @@
 $accent1: #3a28e3;
 $accent2: #9e28e3;
-
 body {
 	padding: 0;
 	margin: 0;
@@ -9,10 +8,10 @@ body {
 	animation: animateBg 15s linear infinite;
 	background-image: linear-gradient(
 		45deg,
-		var($accent1),
-		var($accent2),
-		var($accent1),
-		var($accent2)
+		$accent1,
+		$accent2,
+		$accent1,
+		$accent2
 	);
 	background-size: 300% 100%;
 }
