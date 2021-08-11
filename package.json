@@ -1,0 +1,14 @@
+{
+	"name": "floppa.info",
+	"version": "0.1.0",
+	"description": "Floppa.info website",
+	"main": "index.html",
+	"repository": "https://github.com/itsbumble/floppa.info",
+	"license": "MIT",
+	"scripts": {
+		"sassify": "sass index.scss:index.css --no-source-map"
+	},
+	"dependencies": {
+		"sass": "^1.37.5"
+	}
+}
