@@ -38,6 +38,7 @@
     "remark-abbr": "^1.4.1",
     "remark-github": "^11.2.1",
     "sass": "^1.43.4",
+    "stream": "^0.0.2",
     "tailwindcss": "^2.2.19"
   }
 }
