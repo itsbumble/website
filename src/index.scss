@@ -6,13 +6,7 @@ body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	overflow: hidden;
 	animation: animateBg 15s linear infinite;
-	background-image: linear-gradient(
-		45deg,
-		$accent1,
-		$accent2,
-		$accent1,
-		$accent2
-	);
+	background-image: linear-gradient(45deg, $accent1, $accent2, $accent1, $accent2);
 	background-size: 300% 100%;
 }
 
