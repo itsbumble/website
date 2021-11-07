@@ -16,18 +16,18 @@
 </script>
 
 <svelte:head>
-	<title>floppa!</title>
+	<title>Bumble's Website</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </svelte:head>
 
 <div id="titlebox">
 	{#if loaded}
 		{#if stage > 4}
-			<h1 in:fly={{ y: 200, duration: 2500 }} out:fade>floppa.info</h1>
+			<h1 in:fly={{ y: 200, duration: 2500 }} out:fade>Welcome to Bumble's site.</h1>
 		{/if}
 		{#if stage > 4}
 			<span style="vertical-align: top;" in:fly={{ y: 200, duration: 2600 }} out:fade
-				>Bumble's Website</span
+				>The best website on the entire internet.</span
 			>
 		{/if}
 	{/if}
@@ -37,20 +37,18 @@
 	{#if loaded}
 		{#if stage > 1}
 			<li in:fly={{ y: -200, duration: 2000 }} out:fade>
-				<a href="#home" class="f">Home</a>
+				<a href="/" class="f">Home</a>
 			</li>
 		{/if}
 		{#if stage > 2}
-			<li in:fly={{ y: -200, duration: 2100 }} out:fade><a href="#blog">Blog</a></li>
+			<li in:fly={{ y: -200, duration: 2100 }} out:fade><a href="blog">Blog</a></li>
 		{/if}
 		{#if stage > 3}
-			<li in:fly={{ y: -200, duration: 2200 }} out:fade>
-				<a href="https://github.com/itsbumble/floppa.info">Github</a>
-			</li>
+			<li in:fly={{ y: -200, duration: 2200 }} out:fade><a href="projects">Projects</a></li>
 		{/if}
 		{#if stage > 4}
 			<li in:fly={{ y: -200, duration: 2800 }} out:fade class="right">
-				<a href="#contact" class="l">Contact</a>
+				<a href="https://discord.gg/hNPpwPmWRr">Discord</a>
 			</li>
 		{/if}
 	{/if}
