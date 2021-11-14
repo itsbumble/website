@@ -23,11 +23,11 @@
 <div id="titlebox">
 	{#if loaded}
 		{#if stage > 4}
-			<h1 in:fly={{ y: 200, duration: 2500 }} out:fade>Welcome to Bumble's site.</h1>
+			<h1 in:fly={{ y: 200, duration: 2500 }} out:fade>Hey, I'm bumble.</h1>
 		{/if}
 		{#if stage > 4}
 			<span style="vertical-align: top;" in:fly={{ y: 200, duration: 2600 }} out:fade
-				>The best website on the entire internet.</span
+				>I'm a human being that uses the internet. she/they.</span
 			>
 		{/if}
 	{/if}
