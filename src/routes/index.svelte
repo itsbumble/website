@@ -34,24 +34,11 @@
 </div>
 
 <ul class="topnav">
-	{#if loaded}
 		{#if stage > 1}
-			<li in:fly={{ y: -200, duration: 2000 }} out:fade>
-				<a href="/" class="f">Home</a>
+			<li in:fly={{ y: -200, duration: 2800 }} out:fade class="left">
+				<a href="https://discord.gg/hNPpwPmWRr">Discord Server</a>
 			</li>
 		{/if}
-		{#if stage > 2}
-			<li in:fly={{ y: -200, duration: 2100 }} out:fade><a href="blog">Blog</a></li>
-		{/if}
-		{#if stage > 3}
-			<li in:fly={{ y: -200, duration: 2200 }} out:fade><a href="projects">Projects</a></li>
-		{/if}
-		{#if stage > 4}
-			<li in:fly={{ y: -200, duration: 2800 }} out:fade class="right">
-				<a href="https://discord.gg/hNPpwPmWRr">Discord</a>
-			</li>
-		{/if}
-	{/if}
 </ul>
 
 <div>hi bumble</div>
