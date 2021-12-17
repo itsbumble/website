@@ -3,42 +3,34 @@
 	import { fly, fade } from 'svelte/transition';
 	import { onMount } from 'svelte';
 	let loaded = false;
-	let stage = 0;
-	let time;
 	onMount(async () => {
 		loaded = true;
-
-		time = setInterval(() => {
-			if (stage > 5) clearTimeout(time);
-			stage++;
-		}, 300);
 	});
 </script>
 
 <svelte:head>
 	<title>Bumble's Website</title>
+	<meta name="title" content="Bumble's Website" />
+	<meta
+		name="description"
+		content="Hey, I'm bumble. I'm a human being that uses the internet. she/they. "
+	/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </svelte:head>
 
-<div id="titlebox">
-	{#if loaded}
-		{#if stage > 4}
-			<h1 in:fly={{ y: 200, duration: 2500 }} out:fade>Hey, I'm bumble.</h1>
-		{/if}
-		{#if stage > 4}
-			<span style="vertical-align: top;" in:fly={{ y: 200, duration: 2600 }} out:fade
-				>I'm a human being that uses the internet. she/they.</span
-			>
-		{/if}
-	{/if}
-</div>
+{#if loaded}
+	<div id="titlebox">
+		<h1 in:fly={{ y: 200, duration: 2500 }} out:fade>Hey, I'm bumble.</h1>
 
-<ul class="topnav">
-		{#if stage > 1}
-			<li in:fly={{ y: -200, duration: 2800 }} out:fade class="left">
-				<a href="https://discord.gg/hNPpwPmWRr">Discord Server</a>
-			</li>
-		{/if}
-</ul>
+		<span class="align-top" in:fly={{ y: 200, duration: 2600, delay: 400 }} out:fade
+			>I'm a human being that uses the internet. she/they.</span
+		>
+	</div>
 
-<div>hi bumble</div>
+	<ul class="topnav">
+		<li in:fly={{ y: -200, duration: 2800, delay: 2000 }} out:fade class="left">
+			<a href="https://discord.gg/hNPpwPmWRr">Discord Server</a>
+		</li>
+	</ul>
+	<div>hi bumble (0.0)~~~*</div>
+{/if}
