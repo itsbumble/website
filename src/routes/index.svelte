@@ -23,7 +23,7 @@
 		<h1 in:fly={{ y: 200, duration: 2500 }} out:fade>Hey, I'm bumble.</h1>
 
 		<span class="align-top" in:fly={{ y: 200, duration: 2600, delay: 400 }} out:fade
-			>I'm a human being that uses the internet. she/they.</span
+			>I'm a human being that uses the internet. I proudly use Android.</span
 		>
 	</div>
 
