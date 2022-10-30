@@ -13,7 +13,7 @@
 	<meta name="title" content="Bumble's Website" />
 	<meta
 		name="description"
-		content="Hey, I'm bumble. I'm a human being that uses the internet. I proudly use Android. she/they. "
+		content="Hey, I'm bumble. I'm a human being that uses the internet. she/they. "
 	/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </svelte:head>
@@ -23,7 +23,7 @@
 		<h1 in:fly={{ y: 200, duration: 2500 }} out:fade>Hey, I'm bumble.</h1>
 
 		<span class="align-top" in:fly={{ y: 200, duration: 2600, delay: 400 }} out:fade
-			>I'm a human being that uses the internet. I proudly use Android. she/they.</span
+			>I'm a human being that uses the internet. she/they.</span
 		>
 	</div>
 
