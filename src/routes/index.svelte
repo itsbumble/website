@@ -43,7 +43,7 @@
 		<li in:fly={{ y: -200, duration: 2800, delay: 3500 }} out:fade class="left">
 			<a href="https://twitter.com/bumblebee607">Twitter</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2800, delay: 3500 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2800, delay: 4000 }} out:fade class="left">
 			<a href="https://en.pronouns.page/@itsbumble">Pronouns.page</a>
 		</li>
 		
