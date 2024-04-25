@@ -28,22 +28,22 @@
 	</div>
 
 	<ul class="topnav">
-		<li in:fly={{ y: -200, duration: 2800, delay: 1500 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2800, delay: 700 }} out:fade class="left">
 			<a href="https://discord.gg/hNPpwPmWRr">Discord Server</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2800, delay: 2000 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2800, delay: 1000 }} out:fade class="left">
 			<a href="https://youtube.com/@shoebill_stork/">YouTube Channel</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2800, delay: 2500 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2800, delay: 1300 }} out:fade class="left">
 			<a href="https://www.twitch.tv/its_bumble">Twitch</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2800, delay: 3000 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2800, delay: 1600 }} out:fade class="left">
 			<a href="https://github.com/itsbumble">Github</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2800, delay: 3500 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2800, delay: 1900 }} out:fade class="left">
 			<a href="https://twitter.com/bumblebee607">Twitter</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2800, delay: 4000 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2800, delay: 2200 }} out:fade class="left">
 			<a href="https://en.pronouns.page/@itsbumble">Pronouns.page</a>
 		</li>
 		
