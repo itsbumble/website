@@ -39,6 +39,19 @@ body {
 	margin: 0;
 	text-align: center; 
 }
+@media only screen and (max-width: 768px) {
+    #titlebox {
+        font-size: xx-large;
+    }
+
+    .align-top {
+        font-size: x-large;
+    }
+
+    .align-bottom {
+        font-size: large;
+    }
+}
 
 ul.topnav {
 	list-style-type: none;
