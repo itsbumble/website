@@ -22,6 +22,7 @@ body {
 	margin: 0;
 }
 
+/* Styles for the navigation bar */
 ul.topnav {
 	list-style-type: none;
 	margin: 0;
@@ -30,11 +31,13 @@ ul.topnav {
 	background-color: #00000000;
 	position: fixed;
 	top: 0;
-	width: 100vw;
+	width: 100%;
+	z-index: 1000;
 }
 
 ul.topnav li {
-	float: left;
+	float: none;  /* mobile stuff */
+	display: inline-block;
 }
 
 ul.topnav li a {
@@ -44,20 +47,24 @@ ul.topnav li a {
 	padding: 14px 16px;
 	text-decoration: none;
 	transition: 0.2s;
-	border-radius: 0 0 5px 5px;
+	border-radius: 5px;
 }
+
 ul.topnav li a.f {
-	border-radius: 0 0 5px 0;
+	border-radius: 5px 0 0 5px;
 }
 ul.topnav li a.l {
-	border-radius: 0 0 0 5px;
+	border-radius: 0 5px 5px 0;
 }
+
 ul.topnav li a:hover {
 	background-color: #7777779f;
 }
+
 ul.topnav li.right {
 	float: right;
 }
+
 
 @media screen and (max-width: 600px) {
 	ul.topnav li.right,
