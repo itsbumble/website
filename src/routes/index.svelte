@@ -23,7 +23,9 @@
 		<h1 in:fly={{ y: 200, duration: 2500 }} out:fade>Hey, I'm bumble.</h1>
 
 		<span class="align-top" in:fly={{ y: 200, duration: 2600, delay: 400 }} out:fade
-			>I'm a human being that uses the internet. she/they.</span
+			>I play Geometry Dash, osu!, and Minecraft. <br>I also make weird programs!
+			You should check out my Github to see them.<br>
+			I use she/they. More info on my Pronouns.page!</span
 		>
 	</div>
 
