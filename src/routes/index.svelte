@@ -9,8 +9,8 @@
 </script>
 
 <svelte:head>
-	<title>Bumble's Website</title>
-	<meta name="title" content="Bumble's Website" />
+	<title>bumble's website</title>
+	<meta name="title" content="bumble's website" />
 	<meta
 		name="description"
 		content="Hey, I'm bumble. I'm a human being that uses the internet. she/they."
