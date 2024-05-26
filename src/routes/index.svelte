@@ -46,8 +46,12 @@
 			<a href="https://twitter.com/bumblebee607">Twitter</a>
 		</li>
 		<li in:fly={{ y: -200, duration: 2800, delay: 2200 }} out:fade class="left">
+			<a href="https://www.chess.com/member/its_bumble">Chess.com</a>
+		</li>
+		<li in:fly={{ y: -200, duration: 2800, delay: 2400 }} out:fade class="left">
 			<a href="https://en.pronouns.page/@itsbumble">Pronouns.page</a>
 		</li>
+		
 		
 		
 	</ul>
