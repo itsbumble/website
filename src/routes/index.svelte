@@ -13,7 +13,7 @@
 	<meta name="title" content="bumble's website" />
 	<meta
 		name="description"
-		content="Hey, I'm bumble. I'm a human being that uses the internet. she/they."
+		content="Hey, I'm bumble. I'm a human being that uses the internet. she/her."
 	/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </svelte:head>
@@ -25,7 +25,7 @@
 		<span class="align-top" in:fly={{ y: 200, duration: 2600, delay: 400 }} out:fade
 			>I play Geometry Dash, osu!, and Minecraft. <br>I also make weird programs!
 			You should check out my Github to see them.<br>
-			I use she/they. More info on my Pronouns.page!</span
+			I use she/her. More info on my Pronouns.page!</span
 		>
 	</div>
 
