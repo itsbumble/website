@@ -25,7 +25,7 @@
 		<span class="align-top" in:fly={{ y: 200, duration: 2600, delay: 400 }} out:fade
 			>I play Geometry Dash, osu!, and Minecraft. <br>I also make weird programs!
 			You should check out my Github to see them.<br>
-			I use she/her. More info on my Pronouns.page!</span
+			I use she/they. More info on my Pronouns.page!</span
 		>
 	</div>
 
