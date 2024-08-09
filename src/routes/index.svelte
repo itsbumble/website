@@ -51,9 +51,10 @@
 		<li in:fly={{ y: -200, duration: 2800, delay: 2400 }} out:fade class="left">
 			<a href="https://en.pronouns.page/@itsbumble">Pronouns.page</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2800, delay: 2400 }} out:fade class="right">
-			<a href="https://bumble.pink/linkbot">LinkBot Web</a>
+		<li in:fly="{{ y: -200, duration: 2800, delay: 2400 }}" out:fade class="right">
+			<a href="https://bumble.pink/linkbot" target="_blank">LinkBot Web</a>
 		</li>
+		
 		
 		
 		
