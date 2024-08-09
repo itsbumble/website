@@ -19,39 +19,40 @@
 </svelte:head>
 
 {#if loaded}
-	<div id="titlebox">
-		<h1 in:fly={{ y: 200, duration: 2500 }} out:fade>Hey, I'm bumble.</h1>
+<div id="titlebox">
+    <h1 in:fly={{ x: 500, duration: 2500 }} out:fade>Hey, I'm bumble.</h1>
 
-		<span class="align-top" in:fly={{ y: 200, duration: 2600, delay: 400 }} out:fade
-			>I play Geometry Dash, osu!, and Minecraft. <br>I also make weird programs!
-			You should check out my Github to see them.<br>
-			I use she/they. More info on my Pronouns.page!</span
-		>
-	</div>
+    <span class="align-top" in:fly={{ x: 500, duration: 2600, delay: 400 }} out:fade>
+        I play Geometry Dash, osu!, and Minecraft. <br>
+        I also make weird programs! You should check out my Github to see them.<br>
+        I use she/they. More info on my Pronouns.page!
+    </span>
+</div>
+
 
 	<ul class="topnav">
-		<li in:fly={{ y: -200, duration: 2800, delay: 700 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2000, delay: 700 }} out:fade class="left">
 			<a href="https://discord.gg/hNPpwPmWRr">Discord Server</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2800, delay: 1000 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2000, delay: 1000 }} out:fade class="left">
 			<a href="https://youtube.com/@shoebill_stork/">YouTube Channel</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2800, delay: 1300 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2000, delay: 1300 }} out:fade class="left">
 			<a href="https://www.twitch.tv/its_bumble">Twitch</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2800, delay: 1600 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2000, delay: 1600 }} out:fade class="left">
 			<a href="https://github.com/itsbumble">Github</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2800, delay: 1900 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2000, delay: 1900 }} out:fade class="left">
 			<a href="https://twitter.com/bumblebee607">Twitter</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2800, delay: 2200 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2000, delay: 2200 }} out:fade class="left">
 			<a href="https://www.chess.com/member/its_bumble">Chess.com</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2800, delay: 2400 }} out:fade class="left">
+		<li in:fly={{ y: -200, duration: 2000, delay: 2400 }} out:fade class="left">
 			<a href="https://en.pronouns.page/@itsbumble">Pronouns.page</a>
 		</li>
-		<li in:fly="{{ y: -200, duration: 2800, delay: 2400 }}" out:fade class="right">
+		<li in:fly="{{ y: -200, duration: 2000, delay: 700 }}" out:fade class="right">
 			<a href="https://bumble.pink/linkbot" target="_blank">LinkBot Web</a>
 		</li>
 		
