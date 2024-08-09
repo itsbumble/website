@@ -13,7 +13,7 @@
 	<meta name="title" content="bumble's website" />
 	<meta
 		name="description"
-		content="Hey, I'm bumble. I'm a human being that uses the internet. she/her."
+		content="Hey, I'm bumble. I'm a human being that uses the internet. she/they."
 	/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </svelte:head>
