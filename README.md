@@ -6,6 +6,7 @@ This website is available to view on the following links:
 https://floppa.info
 https://sogga.info
 https://bumble.pink
+https://bumble.codes
 
 
 # Setup
