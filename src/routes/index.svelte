@@ -20,12 +20,10 @@
 
 {#if loaded}
 <div id="titlebox">
-    <h1 in:fly={{ x: 500, duration: 2500 }} out:fade>Hey, I'm bumble.</h1>
+    <h1 in:fly={{ y: 500, duration: 2500 }} out:fade>Hey, I'm bumble.</h1>
 
-    <span class="align-top" in:fly={{ x: 500, duration: 2600, delay: 400 }} out:fade>
-        I play Geometry Dash, osu!, and Minecraft. <br>
-        I also make weird programs! You should check out my Github to see them.<br>
-        I use she/they. More info on my Pronouns.page!
+    <span class="align-top" in:fly={{ y: 500, duration: 2560, delay: 400 }} out:fade>
+        Roller coaster enthusiast, aviation enthusiast, gamer, programmer, saxophonist<br>
     </span>
 </div>
 
