@@ -1,7 +1,5 @@
 # website
 
-The text sliding in from the right is an experiment - it may be reverted to sliding in from the bottom in the future.
-
 This website is available to view on the following links:
 https://floppa.info
 https://sogga.info
