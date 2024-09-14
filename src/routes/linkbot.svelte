@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkBot-JS v1.0 by itsbumble</title>
+    <title>LinkBot-JS v1.1 by itsbumble</title>
     <style>
         body {
             background-color: #263238;
@@ -44,9 +44,13 @@
 </head>
 <body>
 
-<div id="splash">LinkBot-JS v1.0 by itsbumble</div>
+<div id="splash">LinkBot-JS v1.1 by itsbumble</div>
 
 <div id="main">
+    <div>
+        <label for="baseUrl">Enter base URL (use 'XXXX' as placeholder):</label>
+        <input type="text" id="baseUrl" value="https://example.com/XXXX.jpeg" />
+    </div>
     <div>
         <label for="numLinks">Enter number of links:</label>
         <input type="text" id="numLinks" />
@@ -61,7 +65,7 @@
     <textarea id="linkOutput" style="width: 100%; height: 200px; background-color: #37474F; color: #FFFFFF;" readonly></textarea>
 </div>
 
-<div id="warning">WARNING: THIS IS BETA SOFTWARE.<br>This was re-written from Python into JavaScript by ChatGPT, so expect things not to work.<br>Or not.</div>
+<div id="warning">WARNING: THIS IS BETA SOFTWARE.<br>This was re-written from Python into JavaScript by ChatGPT, so expect things not to work.<br>Or maybe it's fine.</div>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -78,12 +82,18 @@
 
     function generateLinks() {
         const numLinks = parseInt(document.getElementById('numLinks').value);
+        const baseLink = document.getElementById('baseUrl').value;
+
+        if (!baseLink.includes('XXXX')) {
+            alert('Base URL must contain "XXXX" as a placeholder.');
+            return;
+        }
+
         if (isNaN(numLinks) || numLinks <= 0) {
             alert('Please enter a number greater than 0.');
             return;
         }
 
-        const baseLink = 'https://example.com/XXXX.jpeg';
         allLinks = Array.from({ length: numLinks }, () => {
             const randomNum = Math.floor(Math.random() * 3000) + 1;
             return baseLink.replace('XXXX', randomNum);
