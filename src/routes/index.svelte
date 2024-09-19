@@ -56,7 +56,7 @@
 		</li>
 		
 		<footer class="footer">
-			&copy; 2024 itsbumble - This project is licensed under the GNU General Public License v3.0.
+			&copy; 2024 its_bumble - This project is licensed under the GNU General Public License v3.0.
 		</footer>
 		
 	</ul>
