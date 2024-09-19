@@ -9,6 +9,7 @@
 </script>
 
 <svelte:head>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
 	<title>bumble's website</title>
 	<meta name="title" content="bumble's website" />
 	<meta
@@ -20,7 +21,7 @@
 
 {#if loaded}
 <div id="titlebox">
-    <h1 in:fly={{ y: 500, duration: 2500 }} out:fade>Hey, I'm bumble.</h1>
+    <h1 in:fly={{ y: 500, duration: 2500 }} out:fade style="font-weight: 400;">Hey, I'm bumble.</h1>
 
     <span class="align-top" in:fly={{ y: 500, duration: 2560, delay: 400 }} out:fade>
         Roller coaster enthusiast, aviation enthusiast, gamer, programmer, saxophonist<br>
