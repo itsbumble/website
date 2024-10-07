@@ -55,10 +55,6 @@
 			<a href="https://bumble.pink/linkbot" target="_blank">LinkBot Web</a>
 		</li>
 		
-		<footer class="footer">
-			&copy; 2024 its_bumble - This project is licensed under the GNU General Public License v3.0.
-		</footer>
-		
 	</ul>
 	<div>hi bumble (0.0)~~~*</div>
 {/if}
