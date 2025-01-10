@@ -65,8 +65,6 @@
     <textarea id="linkOutput" style="width: 100%; height: 200px; background-color: #37474F; color: #FFFFFF;" readonly></textarea>
 </div>
 
-<div id="warning">WARNING: THIS IS BETA SOFTWARE.<br>This was re-written from Python into JavaScript by ChatGPT, so expect things not to work.<br>Or maybe it's fine.</div>
-
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const splash = document.getElementById('splash');
