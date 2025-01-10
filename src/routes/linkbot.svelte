@@ -106,11 +106,15 @@
     }
 
     function copyLinks() {
-        if (!allLinks.length) return;
-        const linkOutput = document.getElementById('linkOutput');
-        linkOutput.select();
-        document.execCommand('copy');
+    if (!allLinks.length) return;
+
+    const linkOutput = document.getElementById('linkOutput');
+    const linksWithSpaces = allLinks.join(' '); // Add spaces between links
+    navigator.clipboard.writeText(linksWithSpaces).then(() => {
         alert('Links have been copied to clipboard.');
+    }).catch(err => {
+        console.error('Could not copy links: ', err);
+    });
     }
 
     function clearLinks() {
