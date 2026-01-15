@@ -48,9 +48,6 @@
 		<li in:fly={{ y: -200, duration: 2000, delay: 2200 }} out:fade class="left">
 			<a href="https://www.chess.com/member/its_bumble">Chess.com</a>
 		</li>
-		<li in:fly={{ y: -200, duration: 2000, delay: 2400 }} out:fade class="left">
-			<a href="https://en.pronouns.page/@itsbumble">Pronouns.page</a>
-		</li>
 		<li in:fly="{{ y: -200, duration: 2000, delay: 700 }}" out:fade class="right">
 			<a href="https://bumble.pink/linkbot" target="_blank">LinkBot Web</a>
 		</li>
