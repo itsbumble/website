@@ -14,7 +14,7 @@
 	<meta name="title" content="bumble's website" />
 	<meta
 		name="description"
-		content="bumble's space on the web - check out my socials/projects here"
+		content="who is bumble? find out here!"
 	/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </svelte:head>
@@ -24,7 +24,7 @@
     <h1 in:fly={{ y: 500, duration: 2500 }} out:fade style="font-weight: 400;">Hey, I'm bumble.</h1>
 
     <span class="align-top" in:fly={{ y: 500, duration: 2560, delay: 400 }} out:fade>
-        Roller coaster enthusiast, aviation enthusiast, gamer, programmer, saxophonist<br>
+        "professional" saxophonist, programmer, and gamer<br>
     </span>
 </div>
 
@@ -44,9 +44,6 @@
 		</li>
 		<li in:fly={{ y: -200, duration: 2000, delay: 1900 }} out:fade class="left">
 			<a href="https://twitter.com/bumblebee607">Twitter</a>
-		</li>
-		<li in:fly={{ y: -200, duration: 2000, delay: 2200 }} out:fade class="left">
-			<a href="https://www.chess.com/member/its_bumble">Chess.com</a>
 		</li>
 		<li in:fly="{{ y: -200, duration: 2000, delay: 700 }}" out:fade class="right">
 			<a href="https://bumble.pink/linkbot" target="_blank">LinkBot Web</a>
